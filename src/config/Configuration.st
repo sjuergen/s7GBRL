@@ -15,6 +15,6 @@ CONFIGURATION PLC_1
     task Main(Priority := 1);
     task System(Interval := T#10ms, Priority := 1);    
 
-    program Cyclic with Main : GBRL;
+    program Cyclic with Main : ProgGBRL;
 
 END_CONFIGURATION

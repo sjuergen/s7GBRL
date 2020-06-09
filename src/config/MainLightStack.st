@@ -1,4 +1,4 @@
-PROGRAM GBRL /* name of the program */
+PROGRAM ProgGBRL /* name of the program */
 
     VAR_EXTERNAL
         GlobalCounter : INT;
